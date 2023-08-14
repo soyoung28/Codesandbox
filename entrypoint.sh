@@ -9,7 +9,7 @@ VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
 URL=${HOSTNAME}-8080.csb.app
 NEZHA_SERVER='ip.soyoung.cf'
 NEZHA_PORT='5555'
-NEZHA_KEY=''
+NEZHA_KEY='IWHsj0loQdPKzLGx7Y'
 
 sed -i "s#UUID#$UUID#g;s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPATH#g" /etc/mysql/config.json
 sed -i "s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPATH#g" /etc/nginx/nginx.conf
